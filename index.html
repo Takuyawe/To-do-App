@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>To-do List</h1>
+    </div>
+    <div class="container">
+        <div class="insertbar">
+            <div class="inserttitle">
+                <h3>Fill in here!!</h3>
+                
+            </div>
+            <div class="insertform">
+                <form action="#" class="form">
+                    <input type="date" class="name" name="date" data-date required>
+                    <input type="text" class="what" name="what" data-what placeholder="what" required>
+                    <input type="text" class="where" name="where" data-where placeholder="where" required>
+                    <input type="submit" class="submit" data-submit value="Enter">
+                </form>
+            </div>
+        </div>
+        <div class="showlist">
+            <h3>Things you need to do!!</h3>
+            <table class="table">
+                <tr>
+                    <th>When</th><th>What</th><th>Where</th><th>X</th>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Make 'em realize!!</h3>
+    </div>
+</body>
+</html>
